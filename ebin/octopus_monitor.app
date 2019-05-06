@@ -1,0 +1,10 @@
+{application,octopus_monitor,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{octopus_monitor_app,[]}},
+              {env,[]},
+              {modules,[monitor_server_pubsub,octopus_monitor,
+                        octopus_monitor_app,octopus_monitor_server,
+                        octopus_monitor_sup,reloader]}]}.
