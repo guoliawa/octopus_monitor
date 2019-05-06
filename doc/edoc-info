@@ -1,0 +1,4 @@
+%% encoding: UTF-8
+{application,octopus_monitor}.
+{packages,[]}.
+{modules,[octopus_monitor_app,octopus_monitor_server,octopus_monitor_sup]}.
